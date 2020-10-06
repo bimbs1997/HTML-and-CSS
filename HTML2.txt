@@ -1,0 +1,95 @@
+Metadata
+“Meta” comes from the word “beyond”.
+
+Metadata is data that gives data about, or describes, other data. Simply put, metadata means: data about data.
+In HTML, the <meta> tag is usually used to convey data to browsers and search engines that isn’t displayed to the user.
+
+Meta elements can be used to describe pages, provide keywords to help categorize 
+the type of information in the content of the page, note the author of the document, and more.
+
+Head Elements
+The <head> element is a container for metadata pertaining to the HTML document itself, 
+and should be placed between the opening <html> tag and the opening <body> tag.
+
+Head elements can contain:
+
+Titles
+Scripts (a computer program that is to be run by the browser)
+File attachments (such as CSS files, JavaScript files or even custom fonts)
+Character encoding
+Meta data
+
+The head element is typically placed near the top of an HTML file.
+
+
+Embedded Content
+To embed means to fix something inside another thing. 
+Content from another source that is included as part of a page is referred to as “embedded content”. 
+This typically refers to content that exists on another website.
+
+Body Elements
+The content placed between <body> and </body> tags makes up most of the content on the page. 
+It consists of nearly anything the developer can dream of, such as: 
+embedded video, images, text, animation, tables of data, advertisements, even music. 
+The sky’s the limit, but within the body tag is where you'll place it.
+
+
+The Basic HTML Template
+The code we just laid out is actually the recommended template for 
+all HTML web pages (meaning, regardless of what you add to the webpage, start with that code). 
+
+Syntax
+Every spoken language has a general set of rules for how words and sentences should be structured. 
+These rules are known as the syntax of that particular language.
+In programming languages, syntax serves the same purpose.
+
+Syntax is the rules you must follow when writing computer programs. 
+Each language has its own syntax. 
+Failing to use the syntax of a particular language correctly can mean that 
+whatever program you are designing will not work at all.
+
+For example: If a computer language required you write “cmd:” (meaning “command”) at the beginning of each instruction,
+that would be part of the syntax of that language. And if you didn’t write “cmd:” at the beginning of an instruction, 
+the computer would not be able to process and execute the instruction because you violated syntax.
+
+Headings 
+Heading elements allow for placement of heads (titles) of sections. 
+They’re broken into a series of graduated sizes: <h1> through <h6>.
+
+Footer
+The <footer> tag defines a footer for a document or section.
+
+Main Element
+The HTML <main> element represents the most important content of the <body> of a document or portion of a document. 
+It consists of content that is directly related to or expands upon the central topic of a document.
+
+Attributes
+An attribute is a word or phrase used inside an element’s opening tag that controls the element’s behavior.
+
+Id Attribute
+“Id” is short for “identification”. One of the most popular attributes is the id attribute.
+
+The id attribute specifies a unique name for an HTML element.
+
+Class Attribute
+Another one of the most popular HTML attributes is the class attribute. 
+This is similar to but different than the id attribute.
+
+Anchor Tags
+The anchor <a> element is the HTML code used to create a link to another page. 
+It instructs the browser to display content from another document (typically a web page).
+
+Hypertext Reference
+There are two kinds of href attributes:
+
+Implicit
+Explicit
+In English, “implicit” means “implied, though not plainly stated”. 
+And “explicit” means “stated clearly and in detail”.
+
+Nav
+The <nav> tag defines a set of navigation links. 
+Navigation links are typically included on nav bars (a rectangular strip that includes links to the main pages on a website).
+
+Testing Code
+It is wise to regularly test your code as you’re writing it.

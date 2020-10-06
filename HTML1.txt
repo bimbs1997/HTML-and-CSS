@@ -1,0 +1,199 @@
+“Hypertext” is a system for linking electronic documents. 
+In an HTML document, hypertext is words, images, videos, etc. 
+that link to other HTML documents. 
+When a user selects the hypertext, the linked document is retrieved and displayed on the computer screen.
+
+"Markup" is the action of adding instructions to a document to control the format, style, 
+and appearance of the content of the document. 
+This applies to physical printed documents as well as to electronic documents that are displayed on a computer screen.
+
+A markup language is a type of programming language that is used to specify markup instructions for the data in a document. 
+In other words, markup instructions aren’t the data in the document; they are data about the data in the document.
+
+Parse
+Parse means to break something up into its parts and analyze it. 
+In computing, it means that the program code is analyzed and read.
+
+Anatomy of HTML
+Hypertext Markup Language (HTML) is used to instruct browsers on how to present content to the user’s screen. 
+The open and closed tags used in HTML denote document elements. Each element works together to form a web document, 
+and a web browser such as Chrome or Firefox is required to parse and display the HTML as intended by the author.
+
+Elements
+The tags and the code written between them are called “elements.”
+
+Creating an Element
+To define an element on the HTML document, we need to use an opening and closing tag.
+
+HTML Structure
+The HTML code at the top of most webpages is the <!DOCTYPE html> declaration.
+
+This is an instruction to the browser that states the version of HTML being used. 
+As of 2019, HTML5 is the latest version. In the HTML document, 
+the code <!DOCTYPE html> tells the browser that the code that follows is written in HTML5. 
+
+Please note that in HTML5 there is no need to specify the version number explicitly. 
+Also, the <!DOCTYPE html> declaration is not a tag (note there is no closing tag 
+[</>])– it is an instruction to the browser as to what version of HTML to use, 
+rather than a tag used to affect content on the web page.
+
+There are different doctype declarations for earlier versions of HTML and for other web development languages.
+You should always include the <!DOCTYPE html> declaration at the top of all HTML code.
+
+
+Using Elements to Create an HTML Page
+The first tag contained in an HTML document is the <html> tag and at the end of 
+the document you end it with the closing html tag </html>. 
+These tags are required to produce a web page – the text and markup tags 
+placed between the <html> and </html> tags form the overall web page.
+
+Body and Title Elements
+The <body> element is used to house all of the content (text, images, links, videos, etc.) in an HTML document. 
+The body of an HTML document is contained within the <body> and </body> tags.
+
+CLI
+CLI stands for command-line interface. An interface is a device or program that enables a user to communicate with a computer. 
+The command line is an interface where you can type commands into a computer. The command line allows you to perform 
+many actions, including: moving files, deleting files, copying files, starting computer programs, etc. 
+While these actions are typically done with a mouse, they can also be handled by typing words into a command line.
+
+
+Underscores and Spaces
+The underscore symbol “_” is a short horizontal line.
+
+It is a common practice of developers to use _ (underscores) and - (dashes) to represent spaces in file names. 
+Why is that? Here are some reasons:
+
+1. In some original command-line interfaces, spaces were represented by underscores or dashes. 
+Some CLIs and operating systems wouldn’t even allow the use of spaces in file names and doing so would cause errors. .
+
+2. In URLs, spaces are represented with the characters “%20”. 
+This is because the space character is character number 20 in the ASCII character encoding system. 
+Using underscores can result in a cleaner address. 
+For example: learncodinganywhere.com/the%20tech%20academy versus learncodinganywhere.com/the_tech_academy.
+
+Character Encoding
+Character encoding: This is a system where numbers, letters, etc. are represented by codes. 
+The codes used are in a form that computers can easily understand. 
+The system used for each type of code depends on how that code is going to be used.
+
+Character Sets
+In HTML (and all coding) you will be dealing with characters.
+In the written form of a language, a character is a written symbol that represents one 
+of the various parts of that language – the various letters, punctuation marks and symbols that are used to 
+lay out that language in written form. As an example, the English sentence “Speed limit 65 MPH!” makes use of upper-case letters 
+such as “S” and “M”, lower-case letters such as “p” and “t”, punctuation marks such as “ “ (a space between characters) 
+and “!”, and the numbers “6” and “5”.
+
+UTF
+If you look closely at some URLs, you may see the characters “UTF”.
+
+“UTF” stands for “Unicode Transformation Format.” 
+UTF is a character encoding format that is able to utilize all of the code points in Unicode.
+This is needed to allow for the encoding of languages other than English.
+
+
+UTF-16
+UTF-16 is another popular Unicode encoding.
+
+UTF-8 is used far more on the web – UTF-16 is used by less than 0.01% of web pages. 
+The main reason UTF-16 is used less in websites is due to the fact that the official documentation on 
+HTML 5 strongly discourages the use of UTF-16 for websites, 
+mainly because it wasn’t originally created with web use in mind (that was left for UTF-8) and 
+it is considered less secure for online use.
+
+UTF-16 is used by Microsoft Windows and Mac OS X's file systems. It’s also used in the programming language Java.
+
+UTF-16 is capable of utilizing all 1,112,064 code points of Unicode.
+
+
+Universal Coded Character Set (UCS)
+UCS is a standard set of characters defined by the International Organization for Standardization (ISO) – 
+an organization composed of representatives from various standards organizations across the world. 
+The ISO exists to monitor and promote international industrial and commercial standards.
+
+
+Decoding
+Have you ever opened a file and the document was displayed incorrectly?
+In order to properly display characters when opening a file, a program (like a text editor) 
+must know which encoding system was used.
+In most browsers and programs, you can choose which encoding system to use.
+You can also typically specify the encoding type when saving a file.
+One of the encoding options for Notepad documents is UTF-8
+
+Using Encoding as a Developer
+As a developer, you can assign which encoding system you’re using.
+
+The default encoding system for HTML5 is UTF-8.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
