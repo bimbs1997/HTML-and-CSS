@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,4 +53,60 @@ ul li {
 
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-shadow: 2px 2px #FFB6C1;
+}
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #C71585;
+  padding: 20px; 
+}
+ 
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #FFE4E1;
+  margin: 5px;
+}
+
+</style>
+</head>
+
+
+<h1>Ordered and Unordered List</h1>
+
+
+
+
+
+<ol>
+<li>Cereal</li> <p> Cereal &euro; 3 </p>
+<li>Milk</li>   <p> Milk &euro; 2 </p>
+<li>Cookies</li> <p> Cookies &euro; 2 </p>
+<li>Orange Juice</li> <p> Orange Juice &euro; 2 </p>
+</ol>
+
+<ul>
+<li>Cookies</li> <p> Cookies &euro; 2 </p>
+<li>Cereal</li>  <p> Cereal &euro; 3 </p>
+<li>Orange Juice</li>  <p> Orange Juice &euro; 2 </p>
+<li>Cereal</li>  <p> Cereal &euro; 2 </p>
+</ul>
+
+
+</body>
+>>>>>>> 955aa53addfd9e65f569c0efade6ce2e8462ef34
 </html>
