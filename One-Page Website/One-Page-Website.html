@@ -5,6 +5,7 @@
             <title>Shieloves Apparel </title>
             <link rel="stylesheet" href="./CSS2/styles.css">
             <link rel="stylesheet" href="./CSS2/animations.css">
+            <link rel="stylesheet" href="./CSS2/Modal_Image.css">
     </head>
     <body>
 
@@ -29,6 +30,75 @@
             </div>
          </div>
          <!--END HOME -->
+
+         <!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="column">
+      <img src="imgs/img1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="imgs/img2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="imgs/img3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+      <div class="column">
+      <img src="imgs/img4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="imgs/img1.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="imgs/img2.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="imgs/img3.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="imgs/img4.jpg" style="width:100%">
+      </div>
+
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="imgs/img1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Sunflower">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="imgs/img2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Mountain">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="imgs/img3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Clouds">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="imgs/img4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Sunset">
+      </div>
+    </div>
+  </div>
 
          <!-- GALLERY -->
          <section id="gallery">
@@ -172,6 +242,6 @@
              www.shieloves.apparel &nbsp;|&nbsp; &copy; 2020
          </div>
          <!-- END FOOTER -->
-
+         <script src="js/One_Page_Website.js" defer></script>
     </body>
 </html>
